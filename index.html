@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+           * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 2px solid #ffffff;
+
+}
+
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1a1a1a;
+  letter-spacing: 2px;
+}
+
+.logo .dot {
+  color: #1a1a1a;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #444;
+  font-size: 16px;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.nav-menu a:hover,
+.nav-menu a.active {
+  color: #0066ff;
+}
+
+.nav-menu a.active::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #0066ff;
+  left: 0;
+  bottom: -5px;
+}
+
+ .intro img {
+    width: 50%;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    background-color:rgb(54, 54, 209);
+}
+.isi h1 {
+    font-size: 40px;
+    margin-left: 85px;
+    margin-right: 85px;
+}
+
+.paragraf {
+    background-color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 85px;
+    margin-right: 85px;
+    color: #1a1a1a;
+}
+
+   .skills-section {
+  display: flex;
+  gap: 40px;
+  padding: 20px;
+  flex-wrap: wrap;
+ 
+}
+
+.column {
+  flex: 1;
+  min-width: 300px;
+}
+
+h3 {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+.what {
+    background-color: rgb(184, 184, 255);
+
+}
+
+       body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+ 
+  color: white;
+}
+
+.akhir {
+  display: flex;
+  padding: 60px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #1e2b47;
+}
+
+.text-section h1 {
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 26px;
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+
+.form-section form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+input, textarea {
+  margin-bottom: 10px;
+  padding: 12px;
+  border: none;
+  background-color: #1956c6;
+  color: white;
+  font-size: 16px;
+  resize: none;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #a9c4f9;
+}
+
+button {
+  background-color: white;
+  color: #1161f3;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  width: 120px;
+  align-self: flex-end;
+  font-size: 16px;
+}
+
+footer {
+  background-color: #1e2b47;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #a4bddf;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+   <div class="navbar">
+    <div class="logo">LUKY PRIMADANI<span class="dot">.</span></div>
+    <nav class="nav-menu">
+      <a href="#" class="active">Home</a>
+      <a href="#">Experience & Education</a>
+      <a href="#">Portfolio</a>
+      <a href="#">Writing</a>
+      <a href="#">Speaking</a>
+    </nav>
+   </div>
+  <div class="intro">
+        <img src="Zee JKT48.jpg" alt="">
+        <div class="isi">
+            <h1>Hi, I'm Luky. <br> I'm a Design Lead <br> based in Berlin.</h1>
+            <div class="paragraf">
+            <p>I am a versatile designer skilled in diverse environments, including startups, scale-ups, and large corporations (top-tier consulting), spanning industries such as insurtech, banking, mobility, healthcare, retail, and automotive across Germany, the UK, Norwegia and Switzerland.</p>
+            <p>My passion for building digital products is shaped by having the mindset of putting humans in the center of attention; to ensure the product team is solving the right problem for the people.</p>
+            <p>My design process is backed-up with the iterative approach of user research, problem definition, hypotheses creations, prototyping, and testing.</p>
+            <p>My strong focus is on discovery research and building design concepts that will enable organizations in defining a new strategy or product opportunities to help the business gain its competitive advantage.</p>
+            </div>
+            <div class="box2"></div>
+        </div>
+  </div>
+  <div class="what">
+    <h1>WHAT I DO</h1>
+    <section class="skills-section">
+  <div class="column">
+    <h3>Design Leadership</h3>
+    <ul>
+      <li>Experience with leading design initiatives and aligning users/customers needs with business KPIs</li>
+      <li>Experience in founding a research and innovation department, establishing vision, processes, mentoring and managing talent acquisition and onboarding.</li>
+      <li>Experienced in setting vision, strategy, and processes to advance Design Maturity by promoting user-centric design across cross-functional teams in both product- and business-led organizations.</li>
+      <li>Fostering growth through teaching, knowledge sharing, and mentoring in various settings</li>
+    </ul>
+  </div>
+
+  <div class="column">
+    <h3>Workshop facilitation and creative problem solving</h3>
+    <ul>
+      <li>Design sprint mastery</li>
+      <li>Product discovery workshops</li>
+      <li>Innovation and Ideation sessions</li>
+    </ul>
+
+    <h3>Strategic Design, UX Design and Research</h3>
+    <ul>
+      <li>Product vision & UX strategy</li>
+      <li>Ability to transform complex ideas into low and high fidelity prototypes.</li>
+      <li>Customer interviews & usability testing</li>
+      <li>Concept prototyping & UX wireframing</li>
+      <li>User Journey mapping </li>
+      <li>Human centric design trend analysis</li>
+      <li>End to end product development (research, prototyping and measuring impact)</li>
+    </ul>
+  </div>
+</section>
+   
+  </div>
+  <div class="akhir">
+    <div class="text-section">
+      <h1>CONTACT ME FOR<br>
+      COLLABORATION AND<br>
+      SPEAKING<br>
+      ENGAGEMENT<br>
+      OPPORTUNITIES!</h1>
+    </div>
+
+    <div class="form-section">
+      <form>
+        <input type="text" placeholder="Name" required />
+        <input type="email" placeholder="Email" required />
+        <input type="tel" placeholder="Phone" required />
+        <textarea placeholder="Type your message here..." required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <p>© meilisa kania alkhanza.si bos muda</p>
+  </footer>
+  </div>
+</body>
+</html>
