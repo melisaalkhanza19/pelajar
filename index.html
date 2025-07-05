@@ -58,7 +58,7 @@ body {
 
 .nav-menu a:hover,
 .nav-menu a.active {
-  color: #0066ff;
+  color: #2e30a3;
 }
 
 .nav-menu a.active::after {
@@ -78,7 +78,7 @@ body {
 .intro {
     display: flex;
     align-items: center;
-    background-color:rgb(54, 54, 209);
+    background-color:rgb(127, 148, 165);
 }
 .isi h1 {
     font-size: 40px;
@@ -94,7 +94,48 @@ body {
     margin-left: 85px;
     margin-right: 85px;
     color: #1a1a1a;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
+
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn {
+  text-align: center;
+  padding: 15px 30px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-dark {
+  background-color: #2c2c2c;
+  color: white;
+  margin-top: 25px;
+}
+
+.btn-outline {
+  border: 2px solid #1e50e4;
+  color: #1e50e4;
+  background-color: white;
+}
+
+.btn-outline:hover {
+  background-color: #1e50e4;
+  color: white;
+}
+
+.btn-dark:hover {
+  background-color: #1a1a1a;
+}
+
+
 
    .skills-section {
   display: flex;
@@ -122,11 +163,11 @@ li {
   margin-bottom: 10px;
 }
 .what {
-    background-color: rgb(184, 184, 255);
+    background-color:rgb(127, 148, 165);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 
 }
-
-       body {
+  body {
   margin: 0;
   font-family: 'Helvetica Neue', sans-serif;
  
@@ -138,7 +179,7 @@ li {
   padding: 60px;
   justify-content: space-around;
   flex-wrap: wrap;
-  background-color: #5d8aed;
+  background-color: #4f7198;
 }
 
 .text-section h1 {
@@ -154,12 +195,15 @@ li {
   flex-direction: column;
   width: 400px;
 }
+.skills-section h3{
+  color: #464242;
+}
 
 input, textarea {
   margin-bottom: 10px;
   padding: 12px;
   border: none;
-  background-color: #1956c6;
+  background-color:rgb(77, 102, 122);
   color: white;
   font-size: 16px;
   resize: none;
@@ -170,8 +214,8 @@ input::placeholder, textarea::placeholder {
 }
 
 button {
-  background-color: white;
-  color: #1161f3;
+  background-color:rgb(77, 102, 122);
+  color: #ffffff;
   font-weight: bold;
   padding: 12px 20px;
   border: none;
@@ -182,7 +226,7 @@ button {
 }
 
 footer {
-  background-color: #1e2b47;
+  background-color: #2f4b64;
   text-align: center;
   padding: 20px;
   font-size: 14px;
@@ -244,7 +288,7 @@ body {
     </nav>
    </div>
   <div class="intro">
-        <img src="Zee JKT48.jpg" alt="">
+        <img src="Amanda JKT48.jpg" alt="">
         <div class="isi">
             <h1>Hi, I'm Luky. <br> I'm a Design Lead <br> based in Berlin.</h1>
             <div class="paragraf">
@@ -252,14 +296,18 @@ body {
             <p>My passion for building digital products is shaped by having the mindset of putting humans in the center of attention; to ensure the product team is solving the right problem for the people.</p>
             <p>My design process is backed-up with the iterative approach of user research, problem definition, hypotheses creations, prototyping, and testing.</p>
             <p>My strong focus is on discovery research and building design concepts that will enable organizations in defining a new strategy or product opportunities to help the business gain its competitive advantage.</p>
+            <div class="button-container">
+            <a href="#" class="btn btn-dark">Check out my CV</a>
+            <a href="#" class="btn btn-outline">Some of my works</a>
+            </div>
             </div>
             <div class="box2"></div>
         </div>
   </div>
   <div class="what">
-    <h1>WHAT I DO</h1>
-    <section class="skills-section">
+  <section class="skills-section">
   <div class="column">
+    <h3>WHAT I DO</h3>
     <h3>Design Leadership</h3>
     <ul>
       <li>Experience with leading design initiatives and aligning users/customers needs with business KPIs</li>
