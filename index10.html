@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+  .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 2px solid #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+
+
+}
+
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1a1a1a;
+  letter-spacing: 2px;
+}
+
+.logo .dot {
+  color: #1a1a1a;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #444;
+  font-size: 16px;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.nav-menu a:hover,
+.nav-menu a.active {
+  color: #2e30a3;
+}
+
+.nav-menu a.active::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #0066ff;
+  left: 0;
+  bottom: -5px;
+}
+    .kontak {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        padding: 40px;
+        width:17%;
+        background-color: #41445e;
+        color: white;
+       
+    }
+    .panjang{
+      font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+    }
+.experience-entry {
+  display: flex;
+  gap: 40px;
+  width: 900px;
+  margin: auto;
+}
+
+.left-column {
+  flex: 1;
+  color: #222;
+}
+
+.left-column .industry {
+  font-style: italic;
+  color: #a6966f;
+}
+
+.left-column .date {
+  margin-top: 10px;
+  color: #444;
+}
+
+.right-column {
+  flex: 2;
+}
+
+.position {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.highlight {
+  color:  #a6966f;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.panjang {
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+
+.italic {
+  font-style: italic;
+  color: #a6966f;
+}
+
+.date {
+  display: block;
+  margin-top: 10px;
+  color: #000;
+}
+
+.blue {
+  color: #a6966f;
+  font-style: italic;
+}
+
+.gabungall {
+    margin-left: 100px;
+}
+
+.kepala {
+    margin-bottom: 14px;
+}
+
+.kepala h1 {
+    font-size: 100px;
+}
+</style>
+    
+</head>
+
+<body>
+
+    <div class="navbar">
+    <div class="logo">LUKY PRIMADANI<span class="dot">.</span></div>
+    <nav class="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="#" class="active">Experience & Education</a>
+      <a href="#">Portfolio</a>
+      <a href="#">Writing</a>
+      <a href="#">Speaking</a>
+    </nav>
+   </div>
+   <div class="panjang">
+    <div class="kontak">
+    <h2>Contact</h2>
+    <p>primadani26@gmail.com<br>
+    +4917635961417<br>
+    Storkower Strasse 108<br>
+    10407 Berlin<br>
+    <a href="">www.lukyprimadani.com</a></p>
+
+    <h2>Skillsets</h2>
+    <h3>Strategic Design Leadership</h3>
+      <p>UX strategy & roadmap<br>Impact metrics measurement<br>Remote / onsite collaboration<br>Big picture / system thinking</p>
+    
+   
+    <h3>Product Design</h3>
+    <p>Qual & quant user research:<br> (Generative & evaluative)<br>UX prototyping/wireframing<br>Journey mapping<br>Trend analysis<br>Workshop facilitation:</p>
+        <ul>
+          <li>Design sprint</li>
+          <li>Product Innovation</li>
+        </ul>
+    <h2>Education</h2>
+    <h3>Masters in Business Design</h3>
+    <p>(1st place Scholarship Awardee)<br>
+    Domus Academy<br>
+    <em>Master of Art</em><br>
+    Milan, Italy<br>
+    2013</p>
+
+    <h3>Bachelor in Visual<br>Communication Design</h3>
+    <p>Bandung Institute of Technology<br>
+    <em>Bachelor of Art</em><br>
+    Bandung, Indonesia<br>
+    2005-2009</p>
+    </div>
+    <div class="gabungall">
+        <div class="kepala">
+            <h1>lucky <br> primadani</h1>
+        <h3>Lead User Experience Design</h3>
+        <p>Design Lead with 15+ years of experience turning complex problems into purposeful solutions. <br> Bridging design and business with a mindset shaped by endurance, creativity, and collaboration. <br> I build strong design practices and love making big ideas practical across industries.</p>
+        </div>
+   <div class="experience-entry">
+    <div class="left-column">
+      <strong>Bikmo GmbH</strong><br />
+      <span class="industry">Insurtech</span>, Remote
+      <div class="date">Mar 2024 - Jan 2025</div>
+    </div>
+    <div class="right-column">
+      <div class="position">Head of Experience Design</div>
+      <p>Part of leadership team. Spearheaded design strategy and execution for a UK-based award-winning cycle insurance scale-up, driving growth design to boost business metrics.</p>
+      <p><span class="highlight">Key achievement:</span> Increased auto-renewal opt-in by 19.99% in 3 months, potentially improving retention by ~5% and saving £160k in revenue.</p>
+    </div>
+  </div>
+
+  <div class="experience">
+    <div class="experience-entry">
+      <div class="left-column">
+        <strong>Boston Consulting Group</strong><br>
+        <span class="italic">Consulting</span>, Berlin<br>
+        <span class="date">Jul 2022 – Feb 2024</span>
+      </div>
+      <div class="right-column">
+        <p>Led digital transformation initiatives for clients in banking, insurance, healthcare, automotive, and retail.</p>
+        <p><strong>Senior Strategic Designer</strong></p>
+        <p><span class="blue">Selected project:</span> Led strategic UX research and testing initiatives for a Norwegian bank’s online banking platform.</p>
+      </div>
+    </div>
+
+    <div class="experience-entry">
+      <div class="left-column">
+        <span class="date">Sep 2021 – Jul 2022</span>
+      </div>
+      <div class="right-column">
+        <p><strong>Strategic Designer</strong></p>
+        <p><span class="blue">Selected project:</span> Co-led a strategic innovation workshop for a leading German healthcare company focused on disruptive business models.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="experience">
+  <div class="experience-entry">
+    <div class="left-column">
+      <strong>Flix GmbH</strong><br>
+      <span class="italic">Mobility</span>, Berlin<br>
+      <span class="date">Sep 2019 –
+        Sep 2021</span>
+    </div>
+    <div class="right-column">
+      <p>Led Design Thinking approach to optimise product development and business init
+
+Nisrin G4, [05/07/2025 13:39]
+iatives for Germany’s leading mobility platform.</p>
+      <p><strong>Senior UX Designer</strong></p>
+      <p><span class="blue">Key achievement:</span> Co-founded and led a UX Research & Innovation team and established the approach and processes with designers across multiple teams.</p>
+    </div>
+  </div>
+
+  <div class="experience-entry">
+    <div class="left-column">
+      <span class="date">Sep 2015 – Mar 2017</span>
+    </div>
+    <div class="right-column">
+      <p><strong>UX Designer</strong></p>
+      <p><span class="blue">Key achievement:</span> Introduced and led product design innovation workshops resulting in a 4% conversion rate lift on mobile web and 50% increased team efficiency.</p>
+    </div>
+  </div>
+</div>
+<div class="experience-entry">
+  <div class="left-column">
+    <strong>HeavenHR</strong><br>
+    <span class="italic">SaaS</span>, Berlin<br>
+    <span class="date">Mar 2024 – Jan 2025</span>
+  </div>
+  <div class="right-column">
+    <p><strong>UI/UX Designer</strong></p>
+    <p>UI/UX design for a Human Resources SaaS dashboard, enhancing key features through usability testing and establishing the brand’s visual identity across all channels.</p>
+  </div>
+</div>
+ </div>
+    </div>
+</html>
