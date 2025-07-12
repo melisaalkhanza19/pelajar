@@ -1,4 +1,4 @@
-               * {
+ * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -81,7 +81,7 @@ body {
 }
 
 .paragraf {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -122,7 +122,7 @@ body {
 
 .btn-outline:hover {
   background-color: #1e50e4;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .btn-dark:hover {
@@ -163,8 +163,6 @@ li {
   body {
   margin: 0;
   font-family: 'Helvetica Neue', sans-serif;
- 
-  color: white;
 }
 
 .akhir {
@@ -172,7 +170,7 @@ li {
   padding: 60px;
   justify-content: space-around;
   flex-wrap: wrap;
-  background-color: #4f7198;
+  background-color: #4b5e74;
 }
 
 .text-section h1 {
@@ -197,7 +195,7 @@ input, textarea {
   padding: 12px;
   border: none;
   background-color:rgb(77, 102, 122);
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 16px;
   resize: none;
 }
@@ -226,24 +224,17 @@ footer {
   color: #a4bddf;
 }
 
-body {
+.container {
       margin: 0;
       padding: 0;
-      background-color: #ffffff; /* warna ungu muda sesuai gambar */
+      background-color: #ffffff;
       font-family: Arial, sans-serif;
       color: white;
-      display: flex;
       justify-content: center;
       align-items: center;
       min-height: 100vh;
     }
 
-    .tenan {
-      max-width: 1200px;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 50px;
-    }
 
     h1 {
       font-size: 48px;
@@ -298,11 +289,373 @@ body {
       text-align: center;
       padding: 10px;
      }
-
-
      }
-      
 
-     
+
+    .kontak {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding: 40px;
+    width:20%;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    background-color: #4b5e74;
+  
+       
+}
+
+.kontak a {
+  color: white;
+}
+
+.panjang{
+   font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;;
+  }
+.experience-entry {
+  display: flex;
+  gap: 40px;
+  width: 900px;
+  margin: auto;
+}
+
+.left-column {
+  flex: 1;
+  color: #6c4d4d;
+}
+
+.left-column .industry {
+  font-style: italic;
+  color: #a6966f;
+}
+
+.left-column .date {
+  margin-top: 10px;
+  color: #444;
+}
+
+.right-column {
+  flex: 2;
+}
+
+.position {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.highlight {
+  color:  #a6966f;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.panjang {
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+
+.italic {
+  font-style: italic;
+  color: #a6966f;
+}
+
+.date {
+  display: block;
+  margin-top: 10px;
+  color: #000000;
+}
+
+.blue {
+  color: #a6966f;
+  font-style: italic;
+}
+
+.gabungall {
+    margin-left: 100px;
+}
+
+.kepala {
+    margin-bottom: 14px;
+}
+
+.kepala h1 {
+    font-size: 60px;
+    color: #41445e;
+}
+
+.ux-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #45615c; 
+      color: rgb(255, 255, 255);
+      border-radius: 12px;
+      padding: 40px;
+      box-shadow: -10px 10px 0px #2b2a2a;
+      max-width: 900px;
+      margin: auto;
+      margin-top: 40px;
+    }
+
+    .ux-text {
+      margin-top: 350px;
+    }
+
+    .ux-text h2 {
+      font-size: 40px;
+      margin-bottom: 30px;
+      
+    }
+
+    .ux-text p {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+
+    .ux-image img {
+      width: 500px;
+      height: auto;
     
+    }
+
+    .gambarcantik {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color:#4b464d; 
+      color: rgb(255, 255, 255);
+      border-radius: 12px;
+      padding: 40px;
+      box-shadow: -10px 10px 0px #2b2a2a;
+      max-width: 900px;
+      margin: auto;
+      margin-top: 40px;
+    }
+
+    .rakbuku {
+      background-color: #aba291;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: rgb(255, 255, 255);
+      border-radius: 12px;
+      padding: 40px;
+      box-shadow: -10px 10px 0px #2b2a2a;
+      max-width: 900px;
+      margin: auto;
+      margin-top: 40px;
+    }
+
+    .tumpukan {
+      background-color: #33312e;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: rgb(255, 255, 255);
+      border-radius: 12px;
+      padding: 40px;
+      box-shadow: -10px 10px 0px #2b2a2a;
+      max-width: 900px;
+      margin: auto;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+
+     @media (max-width: 768px) {
+      .all {
+        flex-direction: column;
+      }
+      .illustration {
+        position: static;
+        width: 100%;
+        margin-top: 20px;
+      }
+    }
+
+     .grid-container {
+      margin: 0;
+      padding: 40px;
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      margin-top: 70px;
+     
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 300px);
+      grid-template-rows: auto auto;
+      gap: 20px;
+      justify-content: center;
+
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+       box-shadow: -5px 5px 0px #978c8c;
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 16px;
+    }
+
+    .card-content h3 {
+      font-size: 16px;
+      margin: 0;
+      color: #111;
+    }
+
+    
+    .card:nth-child(4) {
+      grid-column: 1 / 2;
+      grid-row: 2 / 3;
+    }
+
+    @media (max-width: 900px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+  }
+
+  .card:nth-child(4) {
+    grid-column: auto;
+    grid-row: auto;
+  }
+}
+
+   .wirang {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 90px;
+      display: flex;
+      justify-content: center;
+      background-color: #ffffff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .sinarengan {
+      max-width: 1000px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+
+    .sinarengan h1 {
+      font-size: 40px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      letter-spacing: 4px;
+    }
+
+    .year-column {
+      flex: 1 1 45%;
+      margin: 20px 0;
+    }
+
+    .year-column h2 {
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .year-column ul {
+      padding-left: 20px;
+    }
+
+    .year-column li {
+      margin-bottom: 20px;
+      list-style-type: disc;
+    }
+
+    .year-column a {
+      color: #1a0dab;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .sinarengan {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .year-column {
+        width: 100%;
+      }
+    }
+
+      .girl {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 90px;
+      display: flex;
+      justify-content: center;
+      background-color: #ffffff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .lesungpipi {
+      max-width: 1000px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+
+    
+
+    .terbaik {
+      flex: 1 1 45%;
+      margin: 20px 0;
+    }
+
+    .terbaik h2 {
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .terbaik ul {
+      padding-left: 20px;
+    }
+
+    .terbaik li {
+      margin-bottom: 20px;
+      list-style-type: disc;
+    }
+
+    .terbaik a {
+      color: #1a0dab;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .lesungpipi {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .terbaik {
+        width: 100%;
+      }
+    }
+
+
+
+
+
+
+
 
